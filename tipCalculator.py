@@ -9,7 +9,7 @@ total_tip_bill = tip_percentage * total_bill
 final_amount = total_bill + total_tip_bill
 split = final_amount/number_of_people
 
-round_bill_each = round(split)
+round_bill_each = round(split,2)
 
 
 print(f"Each person payable amount is  ${round_bill_each}")
